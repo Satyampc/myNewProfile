@@ -4,15 +4,15 @@ body {
   height: 100%; */
   color: black;
   font-weight: bold;
-  animation: myanimation 10s infinite;
+  animation: myanimation 15s infinite;
 }
 
 @keyframes myanimation {
   0% {
-    background-color: rgb(244, 140, 140);
+    background-color: rgb(133, 117, 117);
   }
   25% {
-    background-color: rgb(97, 64, 137);
+    background-color: rgb(94, 85, 105);
     color: white;
   }
   50% {
@@ -92,8 +92,8 @@ hr {
   border-radius: 45px;
   margin: 10px;
   text-align: center;
-  animation: dance 10s infinite;
-  box-shadow: 10px 20px 5px gray;
+  animation: dance 13s infinite;
+  box-shadow: 5px 10px 5px gray;
 }
 
 @keyframes dance {
@@ -105,13 +105,15 @@ hr {
   }
   50% {
     transform: scale(0.8);
-    background-color: rgb(221, 113, 74);
   }
   75% {
     transform: rotate(0deg);
   }
-  100% {
+  90% {
     transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
@@ -121,17 +123,6 @@ hr {
   width: 100px;
   height: 150px;
   padding: auto;
-}
-
-@media screen and (max-width: 1600px) {
-  body {
-    background-color: beige;
-  }
-}
-@media screen and (max-width: 1400px) {
-  body {
-    background-color: rgb(226, 208, 238);
-  }
 }
 
 .footer-container {
