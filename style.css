@@ -1,75 +1,36 @@
-body {
-  /* height: 100%;
-  width: 100%;
-  height: 100%; */
-  color: black;
-  font-weight: bold;
-  animation: myanimation 15s infinite;
+#abtMe {
+  scroll-behavior: smooth;
 }
 
-@keyframes myanimation {
-  0% {
-    background-color: rgb(133, 117, 117);
-  }
-  25% {
-    background-color: rgb(94, 85, 105);
-    color: white;
-  }
-  50% {
-    background-color: rgb(192, 233, 192);
-    color: black;
-  }
-  75% {
-    background-color: rgb(88, 80, 80);
-    color: white;
-  }
-  100% {
-    background-color: rgb(127, 136, 238);
-    color: white;
-  }
+.img-resp {
+  width: 300px;
+  height: 300px;
 }
 
 .fName {
-  color: red;
+  color: rgb(48, 44, 44);
 }
 .success {
-  color: rgb(159, 159, 218);
+  color: rgb(83, 83, 199);
 }
-hr {
-  border-width: 10px;
-  border-top: 2px dashed red;
-  border-bottom: 2px dashed red;
-}
-#name,
 .intro {
   font-family: fantasy;
-  width: 75%;
+  font-size: 20px;
 }
-
-.myImg {
-  background-image: url("./img/backimg.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.myProfImg {
-  border-radius: 250px;
-}
-
-.fontSty {
+.name {
   font-family: fantasy;
-}
-
-.skill {
-  font-family: fantasy;
-  text-decoration: overline;
-  text-align: center;
-  margin: 30px 0px 0px 0px;
-}
-
-.skilTitle {
-  text-align: center;
+  font-size: 20px;
   text-decoration: underline;
-  margin-top: 8px;
+}
+.fewThings {
+  text-decoration: underline;
+}
+.cont {
+  justify-content: space-between;
+  border-radius: 45px;
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container-wrapper {
@@ -80,49 +41,21 @@ hr {
   margin-bottom: 30px;
 }
 
-.container {
-  justify-content: space-between;
-  border-radius: 45px;
-  width: 33%;
-  display: flex;
-  flex-wrap: wrap;
+.jumbotron {
+  background-image: url("./img/backimg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.card {
-  border-radius: 45px;
-  margin: 10px;
-  text-align: center;
-  animation: dance 13s infinite;
-  box-shadow: 5px 10px 5px gray;
+.myProfImg {
+  border-radius: 250px;
+  width: 250;
+  height: 250px;
 }
 
-@keyframes dance {
-  0% {
-    transform: rotate(-5deg);
-  }
-  25% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: rotate(0deg);
-  }
-  90% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.image {
-  border-radius: 45px;
-  float: inline-start;
-  width: 100px;
-  height: 150px;
-  padding: auto;
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
 }
 
 .footer-container {
@@ -130,7 +63,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #326d90;
+  background-color: #6f7c83;
 }
 
 .footer-container a {
@@ -150,6 +83,7 @@ hr {
   padding: 0;
   gap: 24px;
   list-style-type: none;
+  margin-top: 10px;
 }
 
 #copyright {
