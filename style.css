@@ -42,9 +42,11 @@ p .fName,
   text-decoration: underline;
 }
 .jumbotron {
-  background-image: url("./img/Landing_page.jpg");
+  background-image: url("./img/HOT SANDWICHES.jpg"); /* Removed backslash */
   background-size: cover;
   background-position: center;
+  height: 400px; /* Try 400–600px or set dynamically */
+  width: 100%;
 }
 
 .myProfImg {
