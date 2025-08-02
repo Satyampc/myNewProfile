@@ -93,6 +93,10 @@ footer {
   background-color: #dcf0c2;
 }
 
+.navbar{
+  display: none;
+}
+
 .snav {
   height: 100%;
   width: 0;
